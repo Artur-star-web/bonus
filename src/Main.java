@@ -12,11 +12,7 @@ public class Main {
         //int percent = isRegistered ? 3 : 1;
 
         int bonus = amount * percent / 100;
-
-        if (bonus > 100) {
-            bonus = 100;
-        }
-
+        
         System.out.println("Итоговый бонус: " + bonus);
     }
 }
